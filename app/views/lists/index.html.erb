@@ -1,0 +1,36 @@
+<% if alert %>
+  <div id="alert" class="alert alert-danger"><%= alert %></div>
+<% end %>
+
+<p><%= link_to 'Add a to-do list', new_list_path, class: 'btn btn-default' %></p>
+
+<% if @lists.empty? %>
+
+  <div class="row lists-blank-slate">
+    <div class="col-md-12 text-center">
+      <p class="lead">Hey! You have no To-Do Lists. Feel free to click on the "Add a to-do list" button and start creating your lists.</p>
+    </div>
+  </div>
+
+<% end %>
+
+<div class="row">
+  <% @lists.each do |list| %>
+    <div class="col-sm-6 col-md-6">
+      <div class="thumbnail">
+        <div class="caption">
+          <h2><%= link_to list.title, list_path(list) %></h2>
+          <p>
+            <%= pluralize(list.tasks.count, 'task in total', 'tasks in total') %>
+          </p>
+          <p>
+            <%= list.tasks.select{|t| t.complete == true}.size %> completed
+          </p>
+          <p>
+            <%= link_to '', list_path(list), class: 'btn btn-default glyphicon glyphicon-pencil', role: 'button' %>
+            <%= link_to '', list, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-default glyphicon glyphicon-remove', role: 'button' %></p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

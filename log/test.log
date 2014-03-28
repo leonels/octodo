@@ -1,0 +1,662 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2.8ms (Views: 0.1ms | ActiveRecord: 0.8ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.3ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.3ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.0ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.8ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.0ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.0ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.0ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 406 Not Acceptable in 2.1ms (ActiveRecord: 0.6ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.0ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.0ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2.5ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.0ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.7ms (Views: 0.2ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 1.2ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 3.8ms (Views: 0.2ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.0ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2.4ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (4.3ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:32:29 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:32:29 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 3.8ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.5ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.0ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2.4ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (3.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:32:41 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:32:41 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 406 Not Acceptable in 1.8ms (ActiveRecord: 0.1ms)
+  [1m[36m (1.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 0.9ms (Views: 0.1ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:32:47 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:32:47 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 2.1ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.0ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2.4ms (Views: 0.1ms | ActiveRecord: 0.7ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:33:16 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:33:16 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 2.1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.9ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:34:39 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:34:39 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 1.5ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 200 OK in 2.9ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:35:39 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:35:39 UTC +00:00]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 1.7ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "2"]]
+Completed 200 OK in 1.8ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "2"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:36:54 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:36:54 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"3"}
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "3"]]
+Completed 200 OK in 2.5ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"3"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 1.5ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:41:02 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:41:02 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "tasks" ("complete", "created_at", "list_id", "name", "updated_at") VALUES (?, ?, ?, ?, ?)  [["complete", nil], ["created_at", Wed, 19 Mar 2014 02:41:02 UTC +00:00], ["list_id", nil], ["name", "Add ability to set a due date on a Task"], ["updated_at", Wed, 19 Mar 2014 02:41:02 UTC +00:00]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#index as JSON
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" 
+Completed 200 OK in 2.0ms (Views: 0.8ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "4"]]
+Completed 200 OK in 3.0ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"4"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "4"]]
+Completed 200 OK in 1.4ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (3.9ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:43:43 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:43:43 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"5"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "5"]]
+Completed 200 OK in 2.3ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"5"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "5"]]
+Completed 200 OK in 1.1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 1.5ms (Views: 0.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:45:25 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:45:25 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"6"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "6"]]
+Completed 200 OK in 1.8ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"6"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "6"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:45:41 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:45:41 UTC +00:00]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.2ms (Views: 1.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"7"}
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "7"]]
+Completed 200 OK in 1.9ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"7"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "7"]]
+Completed 200 OK in 1.3ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:46:55 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:46:55 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"8"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "8"]]
+Completed 200 OK in 2.3ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"8"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "8"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.1ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:47:59 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:47:59 UTC +00:00]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.6ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"9"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "9"]]
+Completed 200 OK in 1.8ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"9"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "9"]]
+Completed 200 OK in 1.1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:48:24 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:48:24 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.6ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"10"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "10"]]
+Completed 200 OK in 1.9ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"10"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "10"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:50:25 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:50:25 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"11"}
+  [1m[36mList Load (0.2ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "11"]]
+Completed 200 OK in 2.4ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"11"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "11"]]
+Completed 200 OK in 1.1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.1ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:50:34 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:50:34 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.8ms (Views: 1.4ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"12"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "12"]]
+Completed 200 OK in 1.9ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"12"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "12"]]
+Completed 200 OK in 1.1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:51:22 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:51:22 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 3.1ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"13"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "13"]]
+Completed 200 OK in 1.9ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"13"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "13"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.6ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:51:35 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:51:35 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:51:41 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:51:41 UTC +00:00]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"15"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "15"]]
+Completed 200 OK in 2.3ms (Views: 0.5ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"15"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "15"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 2.6ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 19 Mar 2014 02:51:49 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Wed, 19 Mar 2014 02:51:49 UTC +00:00]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 4.7ms (Views: 3.1ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"16"}
+  [1m[35mList Load (0.2ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "16"]]
+Completed 200 OK in 2.2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"16"}
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "16"]]
+Completed 200 OK in 1.5ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.8ms)[0m  INSERT INTO "lists" ("created_at", "title", "updated_at") VALUES (?, ?, ?)  [["created_at", Thu, 20 Mar 2014 02:26:18 UTC +00:00], ["title", "To-Do Rails Test"], ["updated_at", Thu, 20 Mar 2014 02:26:18 UTC +00:00]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Processing by ListsController#index as JSON
+  [1m[36mList Load (0.1ms)[0m  [1mSELECT "lists".* FROM "lists" [0m
+Completed 200 OK in 3.5ms (Views: 2.0ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#show as JSON
+  Parameters: {"id"=>"17"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "17"]]
+  [1m[36mList Load (0.0ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1[0m  [["id", "17"]]
+Completed 200 OK in 8.9ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+Processing by ListsController#edit as JSON
+  Parameters: {"id"=>"17"}
+  [1m[35mList Load (0.1ms)[0m  SELECT "lists".* FROM "lists" WHERE "lists"."id" = ? LIMIT 1  [["id", "17"]]
+Completed 200 OK in 1.2ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mrollback transaction[0m

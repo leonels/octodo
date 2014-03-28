@@ -1,0 +1,26 @@
+body {
+  background-color:white;
+}
+
+h1 {
+  font-size:24px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+a {
+  color:black;
+}
+
+a:hover {
+  color: #c40022;
+}
+
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}

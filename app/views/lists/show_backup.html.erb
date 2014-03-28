@@ -1,0 +1,45 @@
+
+<% if notice %>
+  <div id="notice" class="alert alert-info"><%= notice %></div>
+<% end %>
+
+<% if @tasks.size == 0 %>
+  <% if flash[:success] %>
+    <div class="alert alert-success"><%= flash[:success] %></div>
+  <% end %>
+
+  <em>Start adding tasks</em>
+<% else %>
+
+  <div class="well well-lg">
+    <h1><%= @list.title %> <small>To-Do List</small></h1>
+    <ul class="list-inline">
+      <li><%= sortable 'due_at' %></li>
+      <li><%= sortable 'name' %></li>
+    </ul>
+  </div>
+<%= form_tag mark_completed_tasks_lists_path, method: :put %>
+  <%= hidden_field_tag 'list_id', @list.id %>
+  <div class="row">
+    <% @tasks.each do |task| %>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+          <div class="caption">
+            <h2><%= task.name %></h2>
+            <p><%= task.due_at %></p>
+            <p><%= check_box_tag "task_ids[]", task.id, task.complete ? true : false %></p>
+            <p>
+              <%= link_to '', edit_list_task_path(@list, task), class: 'glyphicon glyphicon-pencil' %>
+              <%= link_to '', list_task_path(@list, task), method: :delete, confirm: 'Are you sure?', class: 'glyphicon glyphicon-remove' %>
+              </p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+<% end %>
+
+<%= submit_tag "Submit" %>
+
+<%= link_to 'Back', lists_path, class: 'btn btn-default' %>
+<%= link_to 'New Task', new_list_task_path(@list), class: 'btn btn-default' %>

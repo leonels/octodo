@@ -1,0 +1,64 @@
+body {
+  background-image: url('wood_pattern.png');
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar {
+  background-color: white;
+  background-image: none;
+  border-radius: 0;
+  min-height: 80px;
+}
+
+div.navbar-header, ul.nav.navbar-nav {
+  margin-top: 15px;
+}
+
+a.navbar-brand {
+  color: black;
+  text-transform: uppercase;
+}
+
+ul.nav.navbar-nav > li > a {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 35px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+ul.nav.navbar-nav > li.active > a, ul.nav.navbar-nav > li.active > a:hover {
+  background-color: white;
+  background-image: none;
+  border-bottom: 5px solid #c40022;
+  box-shadow: none;
+  color: #333;
+}
+
+ul.nav.navbar-nav > li > a:hover {
+  border-bottom: 5px solid;
+  color: #333;
+}
+
+div.navbar-collapse {
+  border:none;
+}
+
+div.content, div.lists-blank-slate {
+  background-color: white;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+a.asc:after {
+  content:" \2191";
+}
+
+a.desc:after {
+  content:" \2193";
+}
+
+a.edit-title-activator {
+  cursor: pointer;
+}
