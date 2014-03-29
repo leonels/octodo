@@ -19,6 +19,21 @@
     </div>
   <% end %>
 
+  <div ng-controller="TodoCtrl">
+    <h2>Total todos: {{getTotalTodos()}}</h2>
+    <ul class="list-unstyled">
+      <li ng-repeat="todo in todos">
+        <input type="checkbox" ng-model="todo.done">
+        <span class="done-{{todo.done}}">{{todo.text}}</span>
+      </li>
+    </ul>
+    <form class="form-horizontal">
+      <input type="text" ng-model="formTodoText" ng-model-instant>
+      <button class="btn btn-default" ng-click="addTodo()"><i class="glyphicon glyphicon-plus"></i>Add</button>
+    </form>
+    <button class="btn btn-default btn-lg" ng-click="clearCompleted()"><i class="glyphicon glyphicon-trash"></i>Clear Completed</button>
+  </div>
+
   <%= form_for @list, :html => { :class => 'form-horizontal' } do |f| %>
   <table class="table table-bordered table-hover">
     <tr>

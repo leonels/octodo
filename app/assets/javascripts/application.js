@@ -11,10 +11,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap.min
-//= require jquery.ui.datepicker
-//= require jquery.purr
-//= require best_in_place
-//= require lists
+//= require angular
+//= require underscore-min
+//= require todos
 //= require_self

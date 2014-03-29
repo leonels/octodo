@@ -15,6 +15,7 @@
  *= require design
  *= require bootstrap_overrides
  *= require footer
+ *= require todos
  *= require responsiveness
  */
 
