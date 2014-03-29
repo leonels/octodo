@@ -13,6 +13,7 @@
 //= require jquery
 //= require bootstrap.min
 //= require angular
+//= require angular-resource.min
 //= require underscore-min
-//= require todos
+//= require lists
 //= require_self

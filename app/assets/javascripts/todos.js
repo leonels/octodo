@@ -1,3 +1,4 @@
+/*
 function TodoCtrl($scope){
   $scope.todos = [
     {text: 'Learn AngularJS', done: false},
@@ -19,3 +20,4 @@ function TodoCtrl($scope){
     $scope.formTodoText = '';
   };
 }
+*/
