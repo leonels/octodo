@@ -1,4 +1,4 @@
-TodoRailsTest::Application.routes.draw do
+Octodo::Application.routes.draw do
   resources :lists do
     scope module: :lists do
       resources :tasks

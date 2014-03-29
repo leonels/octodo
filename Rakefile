@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-TodoRailsTest::Application.load_tasks
+Octodo::Application.load_tasks
