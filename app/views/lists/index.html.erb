@@ -17,8 +17,16 @@
   <div ng-controller="ListsCtrl">
     <h1>{{heading}}</h1>
 
+    <p>Search: <input ng-model="query"></p>
+
+    <select ng-model="orderProp">
+      <option value="title">Alphabetical</option>
+      <option value="-created_at">Newest</option>
+      <option value="created_at">Oldest</option>
+    </select>
+
     <ul>
-      <li ng-repeat="list in lists">
+      <li ng-repeat="list in lists | filter:query | orderBy:orderProp">
         <h2>{{list.title}}</h2>
         <p>{{list.created_at}}</p>
       </li>
