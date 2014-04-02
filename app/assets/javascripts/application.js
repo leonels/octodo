@@ -11,11 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require bootstrap.min
 //= require angular
-//= require angular-resource.min
-//= require angular-route
-//= require underscore-min
-//= require lists
-//= require controllers
-//= require_self
+//= require angular-resource
+//= require ../angular/app.js
+//= require_tree ../angular

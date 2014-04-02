@@ -1,15 +1,13 @@
 Octodo::Application.routes.draw do
-  resources :lists do
+  get "dashboard/index"
+
+  resources :lists, :defaults => {format: :json} do
     scope module: :lists do
       resources :tasks
     end
-    collection do
-      put :mark_completed_tasks
-      get :list_of_lists
-    end
   end
 
-  root to: 'lists#new'
+  root to: 'dashboard#index'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
