@@ -2,8 +2,6 @@
   <div id="alert" class="alert alert-danger"><%= alert %></div>
 <% end %>
 
-<p><%= link_to 'Add a to-do list', new_list_path, class: 'btn btn-default' %></p>
-
 <% if @lists.empty? %>
 
   <div class="row lists-blank-slate">
@@ -14,42 +12,4 @@
 
 <% end %>
 
-  <div ng-controller="ListsCtrl">
-    <h1>{{heading}}</h1>
-
-    <p>Search: <input ng-model="query"></p>
-
-    <select ng-model="orderProp">
-      <option value="title">Alphabetical</option>
-      <option value="-created_at">Newest</option>
-      <option value="created_at">Oldest</option>
-    </select>
-
-    <ul>
-      <li ng-repeat="list in lists | filter:query | orderBy:orderProp">
-        <h2>{{list.title}}</h2>
-        <p>{{list.created_at}}</p>
-      </li>
-    </ul>
-  </div>
-
-<div class="row">
-  <% @lists.each do |list| %>
-    <div class="col-sm-6 col-md-6">
-      <div class="thumbnail">
-        <div class="caption">
-          <h2><%= link_to list.title, list_path(list) %></h2>
-          <p>
-            <%= pluralize(list.tasks.count, 'task in total', 'tasks in total') %>
-          </p>
-          <p>
-            <%= list.tasks.select{|t| t.complete == true}.size %> completed
-          </p>
-          <p>
-            <%= link_to '', list_path(list), class: 'btn btn-default glyphicon glyphicon-pencil', role: 'button' %>
-            <%= link_to '', list, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-default glyphicon glyphicon-remove', role: 'button' %></p>
-        </div>
-      </div>
-    </div>
-  <% end %>
-</div>
+<div ng-view></div>

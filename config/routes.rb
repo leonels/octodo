@@ -5,10 +5,11 @@ Octodo::Application.routes.draw do
     end
     collection do
       put :mark_completed_tasks
+      get :list_of_lists
     end
   end
 
-  root to: 'lists#index'
+  root to: 'lists#new'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

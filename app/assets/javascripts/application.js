@@ -14,6 +14,8 @@
 //= require bootstrap.min
 //= require angular
 //= require angular-resource.min
+//= require angular-route
 //= require underscore-min
 //= require lists
+//= require controllers
 //= require_self

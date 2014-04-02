@@ -16,6 +16,15 @@ class ListsController < ApplicationController
     end
   end
 
+  def list_of_lists
+    @lists = List.all
+
+    respond_to do |format|
+      format.html
+      format.json { render :json => @lists }
+    end
+  end
+
   # GET /lists/1
   def show
     @list = List.find(params[:id])
