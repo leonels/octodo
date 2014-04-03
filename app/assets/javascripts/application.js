@@ -13,5 +13,7 @@
 //= require jquery
 //= require angular
 //= require angular-resource
-//= require ../angular/app.js
+//= require ../angular/app
+//= require ../angular/services/models
+//= require ../angular/controllers/list-controller
 //= require_tree ../angular

@@ -1,10 +1,12 @@
 'use strict';
  
-var octodoApp = angular.module('octodoApp');
- 
-octodoApp.controller('ListIndexController', function($scope, List) {
+var app = angular.module('app');
+
+app.controller('ListIndexController', function($scope, List) {
     //Grab all lists from the server
     $scope.items = List.query();
+
+    $scope.testing = 'testing yeah!';
  
     //Destroy method for deleting a list
     $scope.destroy = function(index) {
@@ -17,7 +19,7 @@ octodoApp.controller('ListIndexController', function($scope, List) {
     }
 });
  
-octodoApp.controller('ListCreateController', function($scope, $location, List) {
+app.controller('ListCreateController', function($scope, $location, List) {
     //The save method which is called when the user wants to submit their data
     $scope.save = function() {
  
@@ -39,7 +41,7 @@ octodoApp.controller('ListCreateController', function($scope, $location, List) {
 });
  
 //A controller to show the forum and all it's glory
-octodoApp.controller('ListShowController', function($scope, List, Task, $routeParams) {
+app.controller('ListShowController', function($scope, List, Task, $routeParams) {
     //Grab the list from the server
     $scope.list = List.get({id: $routeParams.id})
 });
