@@ -1,0 +1,22 @@
+<h1>This is test.html</h1>
+
+<h2>{{page_title}}</h2>
+
+<div class="row">
+  <p>
+    Search: <input ng-model="query">
+  </p>
+  <p>
+    <select ng-model="orderProp">
+    <option value="title">Alphabetical</option>
+    <option value="-created_at">Newest</option>
+    <option value="created_at">Oldest</option>
+  </select>
+  </p>
+</div>
+
+<ul>
+  <li ng-repeat="list in lists | filter:query | orderBy:orderProp">
+  	{{list.title}}
+  </li>  
+</ul>

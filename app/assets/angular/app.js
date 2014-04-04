@@ -1,16 +1,34 @@
-'use strict';
-/*
-    This is our main launch point from Angular. We'll put anything to do with the
-    general well being of our app in this file. For now it'll basically just contain
-    the routing information.
+/* App Module */
+var app = angular.module('app', [
+  'ngRoute',
+  'appControllers'
+]);
 
-    Our module will be called 'app'.
- */
-angular.module('app', ['ngResource'])
-  .config(['$routeProvider', function($routeProvider, $locationProvider) {
-    $routeProvider
-      .when('/',          {controller: 'ListIndexController',    templateUrl: "<%= asset_path('templates/index.html') %>"})
-      .when('/lists/new', {controller: 'ListCreateController',   templateUrl: "<%= asset_path('templates/new.html') %>"})
-      .when('/lists/:id', {controller: 'ListShowController',     templateUrl: "<%= asset_path('templates/show.html') %>"})
-      .otherwise({redirectTo: '/'});
-}]);
+/* Controllers */
+var appControllers = angular.module('appControllers', []);
+
+appControllers.controller('ListIndexController', ['$scope', '$http',
+  function($scope, $http) {
+    $http.get('/lists.json').success(function(data) {
+      $scope.lists = data;
+      $scope.page_title = "eitale!"
+      $scope.orderProp = 'created_at';
+    });
+  }]);
+
+/* Routes */
+app.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/lists', {
+        templateUrl: 'test.html',
+        controller: 'ListIndexController'
+      }).
+      /* when('/phones/:phoneId', {
+        templateUrl: 'partials/phone-detail.html',
+        controller: 'PhoneDetailCtrl'
+      }). */
+      otherwise({
+        redirectTo: '/phones'
+      });
+  }]);
