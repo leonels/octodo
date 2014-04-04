@@ -1,22 +1,27 @@
-<h1>This is test.html</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>This is test.html</h1>
 
-<h2>{{page_title}}</h2>
+      <h2>{{page_title}}</h2>
 
-<div class="row">
-  <p>
-    Search: <input ng-model="query">
-  </p>
-  <p>
-    <select ng-model="orderProp">
-    <option value="title">Alphabetical</option>
-    <option value="-created_at">Newest</option>
-    <option value="created_at">Oldest</option>
-  </select>
-  </p>
+  	  <p>
+  	    Search: <input ng-model="query">
+  	  </p>
+  	  
+      <p>
+  	    <select ng-model="orderProp">
+  	    <option value="title">Alphabetical</option>
+  	    <option value="-created_at">Newest</option>
+  	    <option value="created_at">Oldest</option>
+  	  </select>
+  	  </p>
+
+      <ul>
+        <li ng-repeat="list in lists | filter:query | orderBy:orderProp">
+          {{list.title}}
+        </li>  
+      </ul>
+  	</div>
+  </div>
 </div>
-
-<ul>
-  <li ng-repeat="list in lists | filter:query | orderBy:orderProp">
-  	{{list.title}}
-  </li>  
-</ul>
