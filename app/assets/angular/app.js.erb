@@ -16,19 +16,33 @@ appControllers.controller('ListIndexController', ['$scope', '$http',
     });
   }]);
 
+appControllers.controller('ListShowController', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+    $http.get('/lists/' + $routeParams.id + '.json').success(function(data) {
+      $scope.list = data;
+      $scope.page_title = "You are in show.html"
+    });
+  }]);
+
 /* Routes */
 app.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/lists', {
+      when('/lists/in-public-directory', {
         templateUrl: 'test.html',
         controller: 'ListIndexController'
       }).
-      when('/lists/in-assets', {
+      when('/lists', {
+        /* in app/assets/angular/templates/ directory */
         templateUrl: "<%= asset_path('templates/index.html') %>",
         controller: 'ListIndexController'
       }).
+      when('/lists/:id', {
+        /* in app/assets/angular/templates/ directory */
+        templateUrl: "<%= asset_path('templates/show.html') %>",
+        controller: 'ListShowController'
+      }).
       otherwise({
-        redirectTo: '/phones'
+        redirectTo: '/dashboard'
       });
   }]);

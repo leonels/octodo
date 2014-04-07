@@ -6,4 +6,8 @@ class ListsController < ApplicationController
     respond_with List.all
   end
 
+  def show
+  	respond_with List.find(params[:id])
+  end
+
 end
