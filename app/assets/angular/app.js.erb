@@ -11,7 +11,6 @@ appControllers.controller('ListIndexController', ['$scope', '$http',
   function($scope, $http) {
     $http.get('/lists.json').success(function(data) {
       $scope.lists = data;
-      $scope.page_title = "eitale!"
       $scope.orderProp = 'created_at';
     });
   }]);
@@ -20,7 +19,6 @@ appControllers.controller('ListShowController', ['$scope', '$routeParams', '$htt
   function($scope, $routeParams, $http) {
     $http.get('/lists/' + $routeParams.id + '.json').success(function(data) {
       $scope.list = data;
-      $scope.page_title = "You are in show.html"
     });
   }]);
 
